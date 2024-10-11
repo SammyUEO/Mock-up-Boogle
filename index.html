@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boogle</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        text-align: center;
+        position: relative;
+      }
+      header {
+        text-align: left;
+        font-size: 14px;
+        width: 100%;
+        position: absolute;
+        top: 20px;
+        left: 10;
+        padding: 0 50px;
+      }
+      header a {
+        margin: 0 10px;
+        color: blue;
+        text-decoration: none;
+      }
+      .top-right-links {
+        position: absolute;
+        right: 50px;
+        top: 0;
+      }
+      .top-right-links a {
+        margin-left: 10px;
+      }
+      #search-container {
+        display: inline-block;
+        position: relative;
+        margin-top: 0px;
+      }
+      #search-bar {
+        width: 600px;
+        padding: 10px;
+        font-size: 18px;
+      }
+      #advanced-link {
+        position: absolute;
+        top: 12px;
+        right: -230px;
+      }
+      #advanced-link a {
+        color: blue;
+        text-decoration: none;
+        margin-left: 10px;
+      }
+      #buttons {
+        margin-top: 10px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 5px;
+      }
+      footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        padding: 20px 0;
+        background-color: #f8f9fa;
+      }
+      footer a {
+        color: blue;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#">Web</a>
+      <a href="#">Images</a>
+      <a href="#">Maps</a>
+      <a href="#">News</a>
+      <a href="#">more ▼</a>
+      <div class="top-right-links">
+        <a href="#">iBoogle</a>
+        <a href="#">Sign In</a>
+      </div>
+    </header>
+
+    <h1>Boogle</h1>
+
+    <div id="search-container">
+      <input type="text" id="search-bar" placeholder="Search Boogle..." />
+      <div id="advanced-link">
+        <a href="#">Advanced Search Preferences</a>
+      </div>
+    </div>
+
+    <div id="buttons">
+      <button>Boogle Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+
+    <footer>
+      <p>
+        <a href="#">Advertising Programs</a> |
+        <a href="#">Business Solutions</a> |
+        <a href="#">About Boogle</a>
+      </p>
+      <p>&copy; 2008 Boogle</p>
+    </footer>
+  </body>
+</html>
